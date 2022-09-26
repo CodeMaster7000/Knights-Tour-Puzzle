@@ -32,7 +32,7 @@ function solveKT()
 
 	if (!solveKTUtil(0, 0, 1, sol, xMove, yMove))
 	{
-		document.write("Solution does not exist");
+		document.write("The solution does not exist.");
 		return false;
 	}
 	else
@@ -57,7 +57,7 @@ function solveKTUtil(x, y, movei, sol, xMove, yMove)
 							sol, xMove, yMove))
 				return true;
 			else
-				sol[next_x][next_y] = -1; // backtracking
+				sol[next_x][next_y] = -1; 
 		}
 	}
 	return false;
