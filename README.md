@@ -1,6 +1,6 @@
-# Knight's Tour
+# Knight's Tour Puzzle
 
-An algorithm coded in JavaScript which can solve the Knight's Tour problem.
+An algorithm (coded in JavaScript) to solve the Knight's Tour puzzle.
 
 ## Background Information
 
